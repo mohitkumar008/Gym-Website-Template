@@ -1,0 +1,112 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/static/Bg-img.jpg);
+}
+
+header .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    height: 4rem;
+    line-height: 60px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    width: 10%;
+    line-height: 1;
+}
+
+.left img {
+    width: 70px;
+    margin: 0 auto;
+    display: block;
+}
+
+.left h1 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.middle {
+    display: block;
+    margin: 1rem auto;
+    width: 35%;
+}
+
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: all 0.5s ease;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: rgb(27, 174, 219);
+    text-decoration: underline;
+}
+
+.right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.btn {
+    margin: 0px 5px;
+    color: white;
+    background: black;
+    padding: 3px 10px;
+    border: 2px solid wheat;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.reg-form {
+    color: white;
+    margin: 4rem 2rem;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.reg-form h1 {
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 21rem;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+    outline: none;
+}
+
+form .btn {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
